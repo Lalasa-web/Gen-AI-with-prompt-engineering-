@@ -119,71 +119,27 @@ The purpose of this folder is to:
 # Learning Journey Flow
 
 ```mermaid
-flowchart TD
+flowchart LR
 
-A[Python Foundations] --> B[Pandas & Data Handling]
+A[Python & Pandas] --> B[NLP Fundamentals]
 
-B --> B1[Series]
-B --> B2[DataFrames]
-B --> B3[Data Selection & Filtering]
-B --> B4[Data Manipulation]
+B --> C[Text Preprocessing]
+B --> D[Feature Engineering]
+B --> E[Word Embeddings]
+B --> F[Text Analysis]
 
-B --> C[Natural Language Processing]
+F --> G[Neural Networks & RNN]
 
-C --> C1[Text Preprocessing]
-C1 --> C2[Tokenization]
-C1 --> C3[Lemmatization]
-C1 --> C4[Stop Word Removal]
+G --> H[LSTM]
+H --> I[Attention Mechanism]
+I --> J[Multi-Head Attention]
 
-C --> D[Feature Engineering]
-D --> D1[Bag of Words]
-D --> D2[TF-IDF]
+J --> K[Encoder-Decoder Architecture]
 
-C --> E[Word Embeddings]
-E --> E1[CBOW]
-E --> E2[Skip-Gram]
+K --> L[Transformer Concepts]
 
-C --> F[Language Understanding]
-F --> F1[POS Tagging]
-F --> F2[Named Entity Recognition]
-
-C --> G[Semantic Analysis]
-G --> G1[Polarity]
-G --> G2[Subjectivity]
-
-C --> H[Text Classification]
-
-H --> I[Neural Networks & RNN]
-
-I --> I1[RNN Architecture]
-I --> I2[RNN Flow]
-
-I --> J[Types of RNN]
-J --> J1[One-to-One]
-J --> J2[One-to-Many]
-J --> J3[Many-to-One]
-J --> J4[Many-to-Many]
-
-I --> K[Advanced Architectures]
-K --> K1[LSTM]
-K --> K2[LSTM Architecture]
-K --> K3[Long-Term Dependency Handling]
-
-K --> L[Attention Mechanism]
-L --> L1[Attention Flow]
-L --> L2[Multi-Head Attention]
-
-L2 --> M[Encoder-Decoder Architecture]
-
-M --> M1[Encoder Pipeline]
-M --> M2[Decoder Pipeline]
-M --> M3[Flow of Information]
-M --> M4[Transformer Concepts]
-
-M4 --> N[AI/ML & Generative AI Projects]
+L --> M[AI/ML & Generative AI Projects]
 ```
-
----
 
 # Note
 

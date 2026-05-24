@@ -119,26 +119,34 @@ The purpose of this folder is to:
 # Learning Journey Flow
 
 ```mermaid
-flowchart LR
+flowchart TD
 
-A[Python & Pandas] --> B[NLP Fundamentals]
+A[Python & Data Handling] --> B[Pandas Fundamentals]
 
-B --> C[Text Preprocessing]
-B --> D[Feature Engineering]
-B --> E[Word Embeddings]
-B --> F[Text Analysis]
+B --> C[Natural Language Processing]
 
-F --> G[Neural Networks & RNN]
+C --> C1[Text Preprocessing]
+C --> C2[Feature Engineering]
+C --> C3[Word Embeddings]
+C --> C4[Text Classification & Analysis]
 
-G --> H[LSTM]
-H --> I[Attention Mechanism]
-I --> J[Multi-Head Attention]
+C4 --> D[Neural Networks]
 
-J --> K[Encoder-Decoder Architecture]
+D --> D1[RNN Architecture]
+D --> D2[Types of RNN]
+D --> D3[LSTM Networks]
 
-K --> L[Transformer Concepts]
+D3 --> E[Attention Mechanism]
 
-L --> M[AI/ML & Generative AI Projects]
+E --> E1[Multi-Head Attention]
+
+E1 --> F[Encoder-Decoder Architecture]
+
+F --> F1[Encoder Pipeline]
+F --> F2[Decoder Pipeline]
+F --> F3[Transformer Concepts]
+
+F3 --> G[AI/ML & Generative AI Projects]
 ```
 
 # Note

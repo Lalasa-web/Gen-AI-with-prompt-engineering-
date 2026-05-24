@@ -1,9 +1,3 @@
-
----
-
-# README.md for `AI_ML_Learning` Folder
-
-```md
 # AI_ML_Learning
 
 This folder contains notebooks and implementations related to Artificial Intelligence, Machine Learning, Natural Language Processing, Neural Networks, and Transformer-based learning concepts.
@@ -69,7 +63,7 @@ Focuses on Neural Networks and sequence modeling architectures.
 ### Recurrent Neural Networks (RNN)
 - RNN Architecture
 - RNN Flow
-- Sequential learning
+- Sequential Learning
 
 ### Types of RNN
 - One-to-One
@@ -97,13 +91,14 @@ Explores Transformer-related learning concepts.
 - Decoder Pipeline
 - Encoder–Decoder Architecture
 - Flow of Information
-- Attention-based learning concepts
+- Attention-based Learning Concepts
 
 ---
 
 # Learning Objective
 
 The purpose of this folder is to:
+
 - Build strong AI/ML fundamentals
 - Understand NLP and deep learning concepts
 - Explore transformer-based architectures
@@ -126,7 +121,12 @@ The purpose of this folder is to:
 ```mermaid
 flowchart TD
 
-A[Python Programming Foundations] --> B[Pandas & Data Handling]
+A[Python Foundations] --> B[Pandas & Data Handling]
+
+B --> B1[Series]
+B --> B2[DataFrames]
+B --> B3[Data Selection & Filtering]
+B --> B4[Data Manipulation]
 
 B --> C[Natural Language Processing]
 
@@ -143,7 +143,7 @@ C --> E[Word Embeddings]
 E --> E1[CBOW]
 E --> E2[Skip-Gram]
 
-C --> F[Linguistic Analysis]
+C --> F[Language Understanding]
 F --> F1[POS Tagging]
 F --> F2[Named Entity Recognition]
 
@@ -153,27 +153,37 @@ G --> G2[Subjectivity]
 
 C --> H[Text Classification]
 
-H --> I[Neural Networks]
+H --> I[Neural Networks & RNN]
 
 I --> I1[RNN Architecture]
-I1 --> I2[One-to-One]
-I1 --> I3[One-to-Many]
-I1 --> I4[Many-to-One]
-I1 --> I5[Many-to-Many]
+I --> I2[RNN Flow]
 
-I --> J[Advanced RNN Models]
-J --> J1[LSTM]
-J --> J2[Attention Mechanism]
-J2 --> J3[Multi-Head Attention]
+I --> J[Types of RNN]
+J --> J1[One-to-One]
+J --> J2[One-to-Many]
+J --> J3[Many-to-One]
+J --> J4[Many-to-Many]
 
-J3 --> K[Encoder-Decoder Architecture]
+I --> K[Advanced Architectures]
+K --> K1[LSTM]
+K --> K2[LSTM Architecture]
+K --> K3[Long-Term Dependency Handling]
 
-K --> K1[Encoder Pipeline]
-K --> K2[Decoder Pipeline]
-K --> K3[Transformer Concepts]
+K --> L[Attention Mechanism]
+L --> L1[Attention Flow]
+L --> L2[Multi-Head Attention]
 
-K3 --> L[Generative AI & AI Projects]
+L2 --> M[Encoder-Decoder Architecture]
+
+M --> M1[Encoder Pipeline]
+M --> M2[Decoder Pipeline]
+M --> M3[Flow of Information]
+M --> M4[Transformer Concepts]
+
+M4 --> N[AI/ML & Generative AI Projects]
 ```
+
+---
 
 # Note
 

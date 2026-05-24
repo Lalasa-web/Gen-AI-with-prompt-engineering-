@@ -114,12 +114,66 @@ The purpose of this folder is to:
 # Tools & Technologies
 
 - Python
-- Jupyter Notebook
+- Google Colab
 - Pandas
 - NLP Techniques
 - Deep Learning Concepts
 
 ---
+
+# Learning Journey Flow
+
+```mermaid
+flowchart TD
+
+A[Python Programming Foundations] --> B[Pandas & Data Handling]
+
+B --> C[Natural Language Processing]
+
+C --> C1[Text Preprocessing]
+C1 --> C2[Tokenization]
+C1 --> C3[Lemmatization]
+C1 --> C4[Stop Word Removal]
+
+C --> D[Feature Engineering]
+D --> D1[Bag of Words]
+D --> D2[TF-IDF]
+
+C --> E[Word Embeddings]
+E --> E1[CBOW]
+E --> E2[Skip-Gram]
+
+C --> F[Linguistic Analysis]
+F --> F1[POS Tagging]
+F --> F2[Named Entity Recognition]
+
+C --> G[Semantic Analysis]
+G --> G1[Polarity]
+G --> G2[Subjectivity]
+
+C --> H[Text Classification]
+
+H --> I[Neural Networks]
+
+I --> I1[RNN Architecture]
+I1 --> I2[One-to-One]
+I1 --> I3[One-to-Many]
+I1 --> I4[Many-to-One]
+I1 --> I5[Many-to-Many]
+
+I --> J[Advanced RNN Models]
+J --> J1[LSTM]
+J --> J2[Attention Mechanism]
+J2 --> J3[Multi-Head Attention]
+
+J3 --> K[Encoder-Decoder Architecture]
+
+K --> K1[Encoder Pipeline]
+K --> K2[Decoder Pipeline]
+K --> K3[Transformer Concepts]
+
+K3 --> L[Generative AI & AI Projects]
+```
 
 # Note
 
